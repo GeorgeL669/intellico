@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InsightIQ – AI Market Research Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: #1e2a38;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #0070f3;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1;
+      min-width: 250px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #1e2a38;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>InsightIQ</h1>
+    <p>AI-Powered Market Research. Real-Time Insights. Smarter Decisions.</p>
+    <a class="cta-btn" href="#signup">Get Early Access</a>
+  </header>
+
+  <section>
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Instant Market Trends</h3>
+        <p>Our AI scans millions of sources to deliver real-time market trend data.</p>
+      </div>
+      <div class="feature">
+        <h3>Competitor Tracking</h3>
+        <p>See how your competitors are performing and what strategies they’re using.</p>
+      </div>
+      <div class="feature">
+        <h3>Customer Insights</h3>
+        <p>Analyze customer sentiment and behavior across social and review platforms.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <p>Just enter your product or market niche, and InsightIQ uses AI and machine learning to generate a detailed research report, complete with graphs, trends, and actionable insights.</p>
+  </section>
+
+  <section id="signup">
+    <h2>Join the Beta</h2>
+    <p>Be one of the first to experience AI-driven market intelligence. Enter your email below:</p>
+    <form>
+      <input type="email" placeholder="Your email address" required />
+      <button type="submit">Notify Me</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 InsightIQ. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
